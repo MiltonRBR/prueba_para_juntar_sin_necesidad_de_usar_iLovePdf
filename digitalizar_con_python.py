@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from PyPDF2 import PdfMerger
 
 merger = PdfMerger()
@@ -13,3 +14,5 @@ merger.close()
 print ("listo")
 
 
+
+>>>>>>> ca938f2f25074d68e89f7589df58e56a6f0cbc47

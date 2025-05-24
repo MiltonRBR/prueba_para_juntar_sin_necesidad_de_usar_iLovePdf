@@ -4,7 +4,8 @@ merger = PdfMerger()
 
 N=2
 for N in range (N,37,1):
-	merger.append("'Escáner_20250524 ('+str(N)+').pdf'")
+	archivo = 'merger.append("Escáner_20250524 ('+str(N)+').pdf'")
+	print (archivo)
 
 merger.write("ompleto.pdf")
 merger.close()
